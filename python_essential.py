@@ -1,3 +1,5 @@
+#copyright@2019
+#Dont Redistribute without Cedits
 #--------------intro
 #means commenting code
 """
