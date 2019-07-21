@@ -118,3 +118,14 @@ for i in t:
 s = "machinelearning"
 for i in s : 
     print(i) 
+#-------------- function
+"""syntax
+def functionname( parameters ):
+   "function_docstring"
+   body of function
+   return [expression]"""
+
+def greeting(name):
+	print("Hello, " + name + ". Good morning!")
+ # function calling 
+greeting("prasoon")
