@@ -7,7 +7,7 @@ multiline commenting
 """
 print("hello Geek")
 print("i'm "prasoon"")#error
-print("i\'m \"prasoon\"" )
+print("i\'m \"prasoon\"" )#escape character 
 print("""\
       hello:
           user defined look
@@ -69,14 +69,14 @@ a = 40
 b = 300
 if b > a:
   print("b is greater than a")
-
+#--
 a = 4
 b = 4
 if b > a:
   print("b is greater than a")
 elif a == b:
   print("a and b are equal")
-
+#--
 a = 400
 b = 100
 if b > a:
@@ -93,16 +93,17 @@ while (count < 3):
     count = count + 1
     print("Hello Geek") 
 count = 0
-
+#--
 
 while (count < 3):     
     count = count + 1
     print("Hello Geek") 
 else: 
     print("your In Else Block")
-   
+#--
 for i in range(0,10):
     print(i)
+#--
 for i in range(0,10,2):
     print(i)
     
